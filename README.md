@@ -1,6 +1,6 @@
 # Pterodactyl_Wings_Log_Monitor
 
-<pre>
+
 clone this repo on to your wings server.
 edit the main.py script and fill in the following variables.
 
@@ -28,5 +28,3 @@ systemctl start log_auditor --no-block
 
 ###Debug
 Pretty easy just run the script manualy python and watch for the errors
-
-</pre>
