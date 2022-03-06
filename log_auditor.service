@@ -1,0 +1,12 @@
+[Unit]
+Description=Log Auditor By Joe
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/log_auditor/main.py
+WorkingDirectory=/opt/log_auditor/
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=sysinit.target
