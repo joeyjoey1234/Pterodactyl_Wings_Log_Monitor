@@ -4,10 +4,11 @@
 clone this repo on to your wings server.
 edit the main.py script and fill in the following variables.
 
-from_address = '' ###Example:  Cool Server 
-to_address = '' ### Example: 'cool dude '
-api_key = '' ## Example: 'kdjfalsdjflaksfkjadl;kfjlsdfk'
+from_address = '' ###Example:  Cool Server <servername@cooldomain.com>
+to_address = '' ### Example: cool dude <coolguy@example.com>
+api_key = '' ## Example: kdjfalsdjflaksfkjadl;kfjlsdfk
 post_url = '' ##### https://api.mailgun.net/v3/sanc5361f5f55dd2.mailgun.org/messages
+machine_name = '' ### Machine name that will be in the email subject line. Example: Bigboi
 
 ## mk the dir for the program
 mkdir /opt/log_auditor/
